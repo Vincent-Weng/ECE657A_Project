@@ -28,6 +28,7 @@ object DailyData {
     FileSystem.get(sc.hadoopConfiguration).delete(outputDir, true)
 
     val textFile = sc.textFile("../historical-hourly-weather-data/" + args.factor() + ".csv")
+    val isTemp = args.factor() == "temperature"
 
     val zeroValues = (0f, 0) // sum, count
     val addValues = (aggValue: (Float, Int), iterValue: Float) => {
@@ -40,7 +41,6 @@ object DailyData {
     val combineValues = (aggValue1: (Float, Int), aggValue2: (Float, Int)) =>
       (aggValue1._1 + aggValue2._1, aggValue1._2 + aggValue2._2)
 
-
     textFile
       .filter(line => {
         val tokens = line.split(",")
@@ -49,7 +49,7 @@ object DailyData {
       .map(line => {
         val tokens = line.split(",")
         val day = tokens(0).take(10)
-        val temp = tokens(col).toFloat - 273.15f
+        val temp = if (isTemp) tokens(col).toFloat - 273.15f else tokens(col).toFloat
         (day, temp)
       })
       .aggregateByKey(zeroValues)(addValues, combineValues)
