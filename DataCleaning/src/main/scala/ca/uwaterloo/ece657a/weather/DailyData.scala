@@ -5,32 +5,29 @@ import org.apache.log4j._
 import org.apache.spark.{SparkConf, SparkContext}
 import org.rogach.scallop._
 
-class CmdConf(args: Seq[String]) extends ScallopConf(args) {
-  mainOptions = Seq(input, output, city)
-  val input = opt[String](descr = "input path", required = true)
-  val output = opt[String](descr = "output path", required = true)
+class DailyConf(args: Seq[String]) extends ScallopConf(args) {
+  mainOptions = Seq(factor, city)
+  val factor = opt[String](descr = "input path", required = true)
   val city = opt[String](descr = "city to aggregate temperature", required = true)
   verify()
 }
 
-object HourlyTemperature {
+object DailyData {
   val log = Logger.getLogger(getClass().getName())
 
   def main(argv: Array[String]) {
-    val args = new CmdConf(argv)
+    val args = new DailyConf(argv)
 
-    log.info("Input: " + args.input())
-    log.info("Output: " + args.output())
     log.info("Number of reducers: " + args.city())
 
     val conf = new SparkConf().setAppName("HourlyTemperature")
     val sc = new SparkContext(conf)
     val col = cityMap.city(args.city()) + 1
 
-    val outputDir = new Path(args.output())
+    val outputDir = new Path("daily-" + args.factor() + "-" + args.city())
     FileSystem.get(sc.hadoopConfiguration).delete(outputDir, true)
 
-    val textFile = sc.textFile(args.input())
+    val textFile = sc.textFile("../historical-hourly-weather-data/" + args.factor() + ".csv")
 
     val zeroValues = (0f, 0) // sum, count
     val addValues = (aggValue: (Float, Int), iterValue: Float) => {
@@ -59,7 +56,8 @@ object HourlyTemperature {
       .map(item => (item._1, item._2._1 / item._2._2))
       .repartition(1)
       .sortBy(_._1)
-      .saveAsTextFile(args.output())
+      .map(x => x._1 + "," + x._2)
+      .saveAsTextFile("daily-" + args.factor() + "-" + args.city())
   }
 }
 
