@@ -7,8 +7,9 @@ import org.apache.spark.{SparkConf, SparkContext}
 import org.rogach.scallop._
 
 class PredictConf(args: Seq[String]) extends ScallopConf(args) {
-  mainOptions = Seq(city)
+  mainOptions = Seq(city, accurate)
   val city = opt[String](descr = "city to aggregate temperature", required = true)
+  val accurate = toggle("accurate")
   verify()
 }
 
@@ -23,6 +24,7 @@ object PredictData {
     val conf = new SparkConf().setAppName("HourlyTemperature")
     val sc = new SparkContext(conf)
     val col = cityMap.city(args.city()) + 1
+    val detailed = args.accurate.isSupplied
 
     def mapToCity(r: RDD[String], changeTemperature: Boolean = false) = {
       r.flatMap(line => {
@@ -58,9 +60,14 @@ object PredictData {
       .join(wind)
       .join(description)
       .repartition(1)
-      .map(l => (l._1, l._2._1._1._1._1, l._2._1._1._1._2, l._2._1._1._2, l._2._1._2, l._2._2))
+      .map(l => {
+        val day = l._1.take(10)
+        val hour = l._1.slice(11, 13)
+        if (detailed) (day, hour, l._2._1._1._1._1, l._2._1._1._1._2, l._2._1._1._2, l._2._1._2, l._2._2)
+        else (day, hour, l._2._1._1._1._1, l._2._1._1._1._2, l._2._1._1._2, l._2._1._2, l._2._2.split(" ").takeRight(1)(0))
+      })
       .sortBy(_._1)
-      .map(l => l._1 + "," + l._2 + "," + l._3 + "," + l._4 + "," + l._5 + "," + l._6)
+      .map(l => l._1 + "," + l._2 + "," + l._3 + "," + l._4 + "," + l._5 + "," + l._6 + "," + l._7)
       .saveAsTextFile("predict-" + args.city())
   }
 }
