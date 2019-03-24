@@ -66,7 +66,7 @@ object PredictData {
         if (detailed) (day, hour, l._2._1._1._1._1, l._2._1._1._1._2, l._2._1._1._2, l._2._1._2, l._2._2)
         else (day, hour, l._2._1._1._1._1, l._2._1._1._1._2, l._2._1._1._2, l._2._1._2, l._2._2.split(" ").takeRight(1)(0))
       })
-      .sortBy(_._1)
+      .sortBy(l => (l._1, l._2))
       .map(l => l._1 + "," + l._2 + "," + l._3 + "," + l._4 + "," + l._5 + "," + l._6 + "," + l._7)
       .saveAsTextFile("predict-" + args.city())
   }
