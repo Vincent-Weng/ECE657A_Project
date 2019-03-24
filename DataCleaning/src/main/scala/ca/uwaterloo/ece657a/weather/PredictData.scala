@@ -30,7 +30,7 @@ object PredictData {
       r.flatMap(line => {
         val tokens = line.split(",")
         if (tokens(col) != "") {
-          if (changeTemperature && !tokens(col).matches("[a-zA-Z]+")) {
+          if (changeTemperature && !tokens(col).matches("[a-zA-Z\\s]+")) {
             val timestamp = tokens(0)
             val value = (tokens(col).toFloat - 273.15).toString
             List((timestamp, value))
