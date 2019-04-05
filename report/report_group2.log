@@ -1,0 +1,485 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  4 APR 2019 20:58
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**/Users/hweng/GitHub/ECE657A_Project/report/report_group2.tex
+(/Users/hweng/GitHub/ECE657A_Project/report/report_group2.tex
+LaTeX2e <2017-04-15>
+Babel <3.10> and hyphenation patterns for 84 language(s) loaded.
+(/Users/hweng/GitHub/ECE657A_Project/report/llncs.cls
+Document Class: llncs 2018/03/10 v2.20 
+ LaTeX document class for Lecture Notes in Computer Science
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2017/04/11 v1.8q multicolumn formatting (FMi)
+\c@tracingmulticols=\count87
+\mult@box=\box26
+\multicol@leftmargin=\dimen103
+\c@unbalance=\count88
+\c@collectmore=\count89
+\doublecol@number=\count90
+\multicoltolerance=\count91
+\multicolpretolerance=\count92
+\full@width=\dimen104
+\page@free=\dimen105
+\premulticols=\dimen106
+\postmulticols=\dimen107
+\multicolsep=\skip43
+\multicolbaselineskip=\skip44
+\partial@page=\box27
+\last@line=\box28
+\maxbalancingoverflow=\dimen108
+\mult@rightbox=\box29
+\mult@grightbox=\box30
+\mult@gfirstbox=\box31
+\mult@firstbox=\box32
+\@tempa=\box33
+\@tempa=\box34
+\@tempa=\box35
+\@tempa=\box36
+\@tempa=\box37
+\@tempa=\box38
+\@tempa=\box39
+\@tempa=\box40
+\@tempa=\box41
+\@tempa=\box42
+\@tempa=\box43
+\@tempa=\box44
+\@tempa=\box45
+\@tempa=\box46
+\@tempa=\box47
+\@tempa=\box48
+\@tempa=\box49
+\c@columnbadness=\count93
+\c@finalcolumnbadness=\count94
+\last@try=\dimen109
+\multicolovershoot=\dimen110
+\multicolundershoot=\dimen111
+\mult@nat@firstbox=\box50
+\colbreak@box=\box51
+\mc@col@check@num=\count95
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/aliascnt.sty
+Package: aliascnt 2016/05/16 v1.4 Alias counters (HO)
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/carlisle/remreset.sty))
+\c@chapter=\count96
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 362.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 363.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 364.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 365.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 366.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 367.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 368.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 369.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 370.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 371.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 372.
+\tocchpnum=\dimen112
+\tocsecnum=\dimen113
+\tocsectotal=\dimen114
+\tocsubsecnum=\dimen115
+\tocsubsectotal=\dimen116
+\tocsubsubsecnum=\dimen117
+\tocsubsubsectotal=\dimen118
+\tocparanum=\dimen119
+\tocparatotal=\dimen120
+\tocsubparanum=\dimen121
+\@tempcntc=\count97
+\fnindent=\dimen122
+\c@@inst=\count98
+\c@@auth=\count99
+\c@auco=\count100
+\instindent=\dimen123
+\authrun=\box52
+\authorrunning=\toks14
+\tocauthor=\toks15
+\titrun=\box53
+\titlerunning=\toks16
+\toctitle=\toks17
+\c@theorem=\count101
+\c@case=\count102
+\c@conjecture=\count103
+\c@corollary=\count104
+\c@definition=\count105
+\c@example=\count106
+\c@exercise=\count107
+\c@lemma=\count108
+\c@note=\count109
+\c@problem=\count110
+\c@property=\count111
+\c@proposition=\count112
+\c@question=\count113
+\c@solution=\count114
+\c@remark=\count115
+\headlineindent=\dimen124
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks18
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/04/14 v1.1b Standard LaTeX Graphics (DPC,SPQR)
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
+ (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+) (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count116
+))
+\Gin@req@height=\dimen125
+\Gin@req@width=\dimen126
+) (/Users/hweng/GitHub/ECE657A_Project/report/report_group2.aux)
+\openout1 = `report_group2.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+ (/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count117
+\scratchdimen=\dimen127
+\scratchbox=\box54
+\nofMPsegments=\count118
+\nofMParguments=\count119
+\everyMPshowfont=\toks19
+\MPscratchCnt=\count120
+\MPscratchDim=\dimen128
+\MPnumerator=\count121
+\makeMPintoPDFobject=\count122
+\everyMPtoPDFconversion=\toks20
+) (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO)
+ (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+) (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+ (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+)) (/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+ (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+ (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 438.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+))
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 11.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 11.
+
+Title too long for running head. Please supply
+a shorter form with \titlerunning prior to \maketitle
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 16.
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <9> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 16.
+ [1
+
+{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+Package epstopdf Info: Source file: <Toronto-decomposition.eps>
+(epstopdf)                    date: 2019-03-24 17:01:36
+(epstopdf)                    size: 47503 bytes
+(epstopdf)             Output file: <Toronto-decomposition-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-04-02 22:22:44
+(epstopdf)                    size: 15692 bytes
+(epstopdf)             Command: <repstopdf --outfile=Toronto-decomposition-eps-converted-to.pdf Toronto-decomposition.eps>
+(epstopdf)             \includegraphics on input line 42.
+Package epstopdf Info: Output file is already uptodate.
+ <Toronto-decomposition-eps-converted-to.pdf, id=12, 722.7pt x 361.35pt>
+File: Toronto-decomposition-eps-converted-to.pdf Graphic file (type pdf)
+ <use Toronto-decomposition-eps-converted-to.pdf>
+Package pdftex.def Info: Toronto-decomposition-eps-converted-to.pdf used on input line 42.
+(pdftex.def)             Requested size: 347.12354pt x 173.56181pt.
+ [2 </Users/hweng/GitHub/ECE657A_Project/report/Toronto-decomposition-eps-converted-to.pdf>] <Toronto-ACF.pdf, id=49, 722.7pt x 216.81pt>
+File: Toronto-ACF.pdf Graphic file (type pdf)
+ <use Toronto-ACF.pdf>
+Package pdftex.def Info: Toronto-ACF.pdf used on input line 62.
+(pdftex.def)             Requested size: 347.12354pt x 104.13708pt.
+ <Toronto-PACF.pdf, id=50, 722.7pt x 216.81pt>
+File: Toronto-PACF.pdf Graphic file (type pdf)
+ <use Toronto-PACF.pdf>
+Package pdftex.def Info: Toronto-PACF.pdf used on input line 67.
+(pdftex.def)             Requested size: 347.12354pt x 104.13708pt.
+ [3 </Users/hweng/GitHub/ECE657A_Project/report/Toronto-ACF.pdf>]
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no “ in font cmr10!
+ [4 </Users/hweng/GitHub/ECE657A_Project/report/Toronto-PACF.pdf>]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <9> on input line 85.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 85.
+ [5]
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+
+
+LaTeX Warning: Reference `toronto-ar,toronto-ma,toronto-arima' on page 6 undefined on input line 114.
+
+Package epstopdf Info: Source file: <Toronto-MAmodel.eps>
+(epstopdf)                    date: 2019-03-24 17:19:46
+(epstopdf)                    size: 22071 bytes
+(epstopdf)             Output file: <Toronto-MAmodel-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-04-02 22:32:46
+(epstopdf)                    size: 12805 bytes
+(epstopdf)             Command: <repstopdf --outfile=Toronto-MAmodel-eps-converted-to.pdf Toronto-MAmodel.eps>
+(epstopdf)             \includegraphics on input line 118.
+Package epstopdf Info: Output file is already uptodate.
+<Toronto-MAmodel-eps-converted-to.pdf, id=114, 722.7pt x 361.35pt>
+File: Toronto-MAmodel-eps-converted-to.pdf Graphic file (type pdf)
+ <use Toronto-MAmodel-eps-converted-to.pdf>
+Package pdftex.def Info: Toronto-MAmodel-eps-converted-to.pdf used on input line 118.
+(pdftex.def)             Requested size: 361.3491pt x 180.67499pt.
+
+Overfull \hbox (14.22557pt too wide) in paragraph at lines 118--119
+ [][] 
+ []
+
+Package epstopdf Info: Source file: <Toronto-ARmodel.eps>
+(epstopdf)                    date: 2019-03-24 17:19:39
+(epstopdf)                    size: 21891 bytes
+(epstopdf)             Output file: <Toronto-ARmodel-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-04-02 22:32:47
+(epstopdf)                    size: 12593 bytes
+(epstopdf)             Command: <repstopdf --outfile=Toronto-ARmodel-eps-converted-to.pdf Toronto-ARmodel.eps>
+(epstopdf)             \includegraphics on input line 124.
+Package epstopdf Info: Output file is already uptodate.
+<Toronto-ARmodel-eps-converted-to.pdf, id=115, 722.7pt x 361.35pt>
+File: Toronto-ARmodel-eps-converted-to.pdf Graphic file (type pdf)
+ <use Toronto-ARmodel-eps-converted-to.pdf>
+Package pdftex.def Info: Toronto-ARmodel-eps-converted-to.pdf used on input line 124.
+(pdftex.def)             Requested size: 361.3491pt x 180.67499pt.
+
+Overfull \hbox (14.22557pt too wide) in paragraph at lines 124--125
+ [][] 
+ []
+
+Package epstopdf Info: Source file: <Toronto-ARIMAmodel.eps>
+(epstopdf)                    date: 2019-03-24 17:19:55
+(epstopdf)                    size: 21545 bytes
+(epstopdf)             Output file: <Toronto-ARIMAmodel-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-04-02 22:32:47
+(epstopdf)                    size: 12508 bytes
+(epstopdf)             Command: <repstopdf --outfile=Toronto-ARIMAmodel-eps-converted-to.pdf Toronto-ARIMAmodel.eps>
+(epstopdf)             \includegraphics on input line 130.
+Package epstopdf Info: Output file is already uptodate.
+<Toronto-ARIMAmodel-eps-converted-to.pdf, id=116, 722.7pt x 361.35pt>
+File: Toronto-ARIMAmodel-eps-converted-to.pdf Graphic file (type pdf)
+ <use Toronto-ARIMAmodel-eps-converted-to.pdf>
+Package pdftex.def Info: Toronto-ARIMAmodel-eps-converted-to.pdf used on input line 130.
+(pdftex.def)             Requested size: 361.3491pt x 180.67499pt.
+
+Overfull \hbox (14.22557pt too wide) in paragraph at lines 130--131
+ [][] 
+ []
+
+<Toronto-pred.pdf, id=117, 433.62pt x 289.08pt>
+File: Toronto-pred.pdf Graphic file (type pdf)
+ <use Toronto-pred.pdf>
+Package pdftex.def Info: Toronto-pred.pdf used on input line 138.
+(pdftex.def)             Requested size: 271.01183pt x 180.67499pt.
+ [6 </Users/hweng/GitHub/ECE657A_Project/report/Toronto-MAmodel-eps-converted-to.pdf>] [7 </Users/hweng/GitHub/ECE657A_Project/report/Toronto-ARmodel-eps-converted-to.pdf> </Users/hweng/GitHub/ECE657A_Project/report/Toronto-ARIMAmodel-eps-converted-to.pdf>] <Montreal-pred.pdf, id=214, 433.62pt x 289.08pt>
+File: Montreal-pred.pdf Graphic file (type pdf)
+ <use Montreal-pred.pdf>
+Package pdftex.def Info: Montreal-pred.pdf used on input line 164.
+(pdftex.def)             Requested size: 166.2212pt x 110.81313pt.
+ <Chicago-pred.pdf, id=215, 433.62pt x 289.08pt>
+File: Chicago-pred.pdf Graphic file (type pdf)
+ <use Chicago-pred.pdf>
+Package pdftex.def Info: Chicago-pred.pdf used on input line 165.
+(pdftex.def)             Requested size: 166.2212pt x 110.81313pt.
+ <Boston-pred.pdf, id=216, 433.62pt x 289.08pt>
+File: Boston-pred.pdf Graphic file (type pdf)
+ <use Boston-pred.pdf>
+Package pdftex.def Info: Boston-pred.pdf used on input line 173.
+(pdftex.def)             Requested size: 271.01183pt x 180.67499pt.
+ [8 </Users/hweng/GitHub/ECE657A_Project/report/Toronto-pred.pdf>] [9 </Users/hweng/GitHub/ECE657A_Project/report/Montreal-pred.pdf> </Users/hweng/GitHub/ECE657A_Project/report/Chicago-pred.pdf
+
+pdfTeX warning: pdflatex (file /Users/hweng/GitHub/ECE657A_Project/report/Chicago-pred.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/hweng/GitHub/ECE657A_Project/report/Boston-pred.pdf
+
+pdfTeX warning: pdflatex (file /Users/hweng/GitHub/ECE657A_Project/report/Boston-pred.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>]
+Package epstopdf Info: Source file: <model.eps>
+(epstopdf)                    date: 2019-04-03 15:51:43
+(epstopdf)                    size: 35014 bytes
+(epstopdf)             Output file: <model-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-04-03 23:50:18
+(epstopdf)                    size: 7156 bytes
+(epstopdf)             Command: <repstopdf --outfile=model-eps-converted-to.pdf model.eps>
+(epstopdf)             \includegraphics on input line 189.
+Package epstopdf Info: Output file is already uptodate.
+ <model-eps-converted-to.pdf, id=357, 252.945pt x 776.9025pt>
+File: model-eps-converted-to.pdf Graphic file (type pdf)
+ <use model-eps-converted-to.pdf>
+Package pdftex.def Info: model-eps-converted-to.pdf used on input line 189.
+(pdftex.def)             Requested size: 117.64908pt x 361.34999pt.
+Package epstopdf Info: Source file: <model-with-drop.eps>
+(epstopdf)                    date: 2019-04-03 15:51:52
+(epstopdf)                    size: 38007 bytes
+(epstopdf)             Output file: <model-with-drop-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-04-03 23:50:20
+(epstopdf)                    size: 7636 bytes
+(epstopdf)             Command: <repstopdf --outfile=model-with-drop-eps-converted-to.pdf model-with-drop.eps>
+(epstopdf)             \includegraphics on input line 190.
+Package epstopdf Info: Output file is already uptodate.
+ <model-with-drop-eps-converted-to.pdf, id=358, 276.03125pt x 1020.81375pt>
+File: model-with-drop-eps-converted-to.pdf Graphic file (type pdf)
+ <use model-with-drop-eps-converted-to.pdf>
+Package pdftex.def Info: model-with-drop-eps-converted-to.pdf used on input line 190.
+(pdftex.def)             Requested size: 97.71169pt x 361.34999pt.
+Package epstopdf Info: Source file: <vancouver-overfitting.eps>
+(epstopdf)                    date: 2019-04-03 15:51:52
+(epstopdf)                    size: 229877 bytes
+(epstopdf)             Output file: <vancouver-overfitting-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-04-03 23:50:20
+(epstopdf)                    size: 205249 bytes
+(epstopdf)             Command: <repstopdf --outfile=vancouver-overfitting-eps-converted-to.pdf vancouver-overfitting.eps>
+(epstopdf)             \includegraphics on input line 204.
+Package epstopdf Info: Output file is already uptodate.
+ <vancouver-overfitting-eps-converted-to.pdf, id=359, 462.72874pt x 347.2975pt>
+File: vancouver-overfitting-eps-converted-to.pdf Graphic file (type pdf)
+ <use vancouver-overfitting-eps-converted-to.pdf>
+Package pdftex.def Info: vancouver-overfitting-eps-converted-to.pdf used on input line 204.
+(pdftex.def)             Requested size: 166.2212pt x 124.75673pt.
+Package epstopdf Info: Source file: <vancouver-overfitting-after.eps>
+(epstopdf)                    date: 2019-04-03 15:51:45
+(epstopdf)                    size: 216768 bytes
+(epstopdf)             Output file: <vancouver-overfitting-after-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-04-04 16:25:26
+(epstopdf)                    size: 194515 bytes
+(epstopdf)             Command: <repstopdf --outfile=vancouver-overfitting-after-eps-converted-to.pdf vancouver-overfitting-after.eps>
+(epstopdf)             \includegraphics on input line 205.
+Package epstopdf Info: Output file is already uptodate.
+ <vancouver-overfitting-after-eps-converted-to.pdf, id=360, 462.72874pt x 347.2975pt>
+File: vancouver-overfitting-after-eps-converted-to.pdf Graphic file (type pdf)
+ <use vancouver-overfitting-after-eps-converted-to.pdf>
+Package pdftex.def Info: vancouver-overfitting-after-eps-converted-to.pdf used on input line 205.
+(pdftex.def)             Requested size: 166.2212pt x 124.75673pt.
+ [10] [11 </Users/hweng/GitHub/ECE657A_Project/report/model-eps-converted-to.pdf> </Users/hweng/GitHub/ECE657A_Project/report/model-with-drop-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <phoenix-overfitting.eps>
+(epstopdf)                    date: 2019-04-04 16:45:24
+(epstopdf)                    size: 138792 bytes
+(epstopdf)             Output file: <phoenix-overfitting-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-04-04 16:46:33
+(epstopdf)                    size: 106758 bytes
+(epstopdf)             Command: <repstopdf --outfile=phoenix-overfitting-eps-converted-to.pdf phoenix-overfitting.eps>
+(epstopdf)             \includegraphics on input line 218.
+Package epstopdf Info: Output file is already uptodate.
+ <phoenix-overfitting-eps-converted-to.pdf, id=377, 462.72874pt x 347.2975pt>
+File: phoenix-overfitting-eps-converted-to.pdf Graphic file (type pdf)
+ <use phoenix-overfitting-eps-converted-to.pdf>
+Package pdftex.def Info: phoenix-overfitting-eps-converted-to.pdf used on input line 218.
+(pdftex.def)             Requested size: 166.2212pt x 124.75673pt.
+Package epstopdf Info: Source file: <vancouver-overfitting.eps>
+(epstopdf)                    date: 2019-04-03 15:51:52
+(epstopdf)                    size: 229877 bytes
+(epstopdf)             Output file: <vancouver-overfitting-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-04-03 23:50:20
+(epstopdf)                    size: 205249 bytes
+(epstopdf)             Command: <repstopdf --outfile=vancouver-overfitting-eps-converted-to.pdf vancouver-overfitting.eps>
+(epstopdf)             \includegraphics on input line 219.
+Package epstopdf Info: Output file is already uptodate.
+File: vancouver-overfitting-eps-converted-to.pdf Graphic file (type pdf)
+ <use vancouver-overfitting-eps-converted-to.pdf>
+Package pdftex.def Info: vancouver-overfitting-eps-converted-to.pdf used on input line 219.
+(pdftex.def)             Requested size: 166.2212pt x 124.75673pt.
+Package epstopdf Info: Source file: <vancouver-final.eps>
+(epstopdf)                    date: 2019-04-03 15:51:47
+(epstopdf)                    size: 262117 bytes
+(epstopdf)             Output file: <vancouver-final-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-04-03 23:50:21
+(epstopdf)                    size: 243846 bytes
+(epstopdf)             Command: <repstopdf --outfile=vancouver-final-eps-converted-to.pdf vancouver-final.eps>
+(epstopdf)             \includegraphics on input line 225.
+Package epstopdf Info: Output file is already uptodate.
+ <vancouver-final-eps-converted-to.pdf, id=378, 462.72874pt x 347.2975pt>
+File: vancouver-final-eps-converted-to.pdf Graphic file (type pdf)
+ <use vancouver-final-eps-converted-to.pdf>
+Package pdftex.def Info: vancouver-final-eps-converted-to.pdf used on input line 225.
+(pdftex.def)             Requested size: 240.7333pt x 180.67499pt.
+ <cities.png, id=379, 1444.39626pt x 618.31pt>
+File: cities.png Graphic file (type png)
+ <use cities.png>
+Package pdftex.def Info: cities.png used on input line 232.
+(pdftex.def)             Requested size: 347.12354pt x 148.59555pt.
+
+Underfull \vbox (badness 4001) has occurred while \output is active []
+
+ [12 </Users/hweng/GitHub/ECE657A_Project/report/vancouver-overfitting-eps-converted-to.pdf> </Users/hweng/GitHub/ECE657A_Project/report/vancouver-overfitting-after-eps-converted-to.pdf> </Users/hweng/GitHub/ECE657A_Project/report/phoenix-overfitting-eps-converted-to.pdf>] [13 </Users/hweng/GitHub/ECE657A_Project/report/vancouver-final-eps-converted-to.pdf> </Users/hweng/GitHub/ECE657A_Project/report/cities.png>] [14] (/Users/hweng/GitHub/ECE657A_Project/report/report_group2.aux)
+
+LaTeX Warning: There were undefined references.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 2045 strings out of 492995
+ 30416 string characters out of 6132704
+ 97484 words of memory out of 5000000
+ 5571 multiletter control sequences out of 15000+600000
+ 7634 words of font info for 27 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 39i,7n,25p,1115b,226s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb>
+Output written on /Users/hweng/GitHub/ECE657A_Project/report/report_group2.pdf (14 pages, 1071799 bytes).
+PDF statistics:
+ 433 PDF objects out of 1000 (max. 8388607)
+ 124 compressed objects within 2 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 86 words of extra memory for PDF output out of 10000 (max. 10000000)
+

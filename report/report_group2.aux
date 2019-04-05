@@ -1,0 +1,63 @@
+\relax 
+\citation{abrahamsen2018machine,holmstrom2016machine}
+\citation{liu2014deep}
+\citation{arxivadhi}
+\@writefile{toc}{\contentsline {title}{Weather trend prediction and forecasting based on synthetical methods of regression and DNN}{1}}
+\@writefile{toc}{\authcount {3}}
+\@writefile{toc}{\contentsline {author}{Muhan Hu \and Han Weng \and Fangrui Zhu}{1}}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}}
+\citation{boxcali}
+\citation{zhangneur}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Dataset preparation}{2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Dataset description}{2}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Decomposed time series (Toronto monthly temperature from 2012-2017)}}{2}}
+\newlabel{toronto-decomp}{{1}{2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}Transform dataset to be ready for machine learning}{3}}
+\@writefile{toc}{\contentsline {subsubsection}{Dataset for trend prediction}{3}}
+\@writefile{toc}{\contentsline {subsubsection}{Dataset for weather forecasting}{3}}
+\@writefile{toc}{\contentsline {section}{\numberline {3}Part I - Trend prediction: the time series model}{3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Stationarity check}{3}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces ACF plot}}{3}}
+\newlabel{toronto-acf}{{2}{3}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces PACF plot}}{4}}
+\newlabel{toronto-pacf}{{3}{4}}
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces ADCF results of original time series and transformed time series.}}{5}}
+\newlabel{adcfResults}{{1}{5}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Regression}{5}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces MA model plot with RSS value}}{6}}
+\newlabel{toronto-ma}{{4}{6}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Results}{6}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces AR model plot with RSS value}}{7}}
+\newlabel{toronto-ar}{{5}{7}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces ARIMA model plot with RSS value}}{7}}
+\newlabel{toronto-arima}{{6}{7}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Predicted future trend of Toronto temperature}}{8}}
+\newlabel{toronto-pred}{{7}{8}}
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Comparison between actual data and predicted data of Toronto temperature}}{8}}
+\newlabel{toronto-pred-compare}{{2}{8}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces Predicted future trend. Left: Montreal. Right: Chicago}}{9}}
+\newlabel{montreal-chicago-pred}{{8}{9}}
+\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces Predicted future trend of Boston temperature}}{9}}
+\newlabel{boston-pred}{{9}{9}}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Part II - Weather forecasting: DNN classification}{10}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Data split}{10}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Model construction}{10}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Combining label classes}{10}}
+\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces Left: Initial DNN model setup. Right: DNN model setup with dropout layers added to deal with overfitting}}{11}}
+\newlabel{model}{{10}{11}}
+\@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces Accuracy of prediction in Vancouver. Left: using 35-class labels. Right: using 13-class labels.}}{12}}
+\newlabel{combine-label}{{11}{12}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4}Dealing with overfitting}{12}}
+\@writefile{lof}{\contentsline {figure}{\numberline {12}{\ignorespaces Classification accuracy after epochs illustrating overfitting problem. Left: Phoenix. Right: Vancouver}}{12}}
+\newlabel{overfit}{{12}{12}}
+\@writefile{lof}{\contentsline {figure}{\numberline {13}{\ignorespaces Accuracy after epochs, with dropout layers. (Vancouver)}}{13}}
+\newlabel{van-final}{{13}{13}}
+\@writefile{lof}{\contentsline {figure}{\numberline {14}{\ignorespaces Classification accuracy in 5 cities}}{13}}
+\newlabel{cities}{{14}{13}}
+\bibcite{abrahamsen2018machine}{1}
+\bibcite{holmstrom2016machine}{2}
+\bibcite{liu2014deep}{3}
+\bibcite{arxivadhi}{4}
+\bibcite{boxcali}{5}
+\bibcite{zhangneur}{6}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Conclusion}{14}}
